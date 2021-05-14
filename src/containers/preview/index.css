@@ -1,0 +1,11 @@
+.preview {
+    width: 800px;
+    margin: auto;
+    background-color: #3f95f1;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,3 @@
+export const ADD_TODO_TITLE = 'ADD_TODO_TITLE';
+export const ADD_TODO_DESCRIPTION = 'ADD_TODO_DESCRIPTION';
+export const REMOVE_TODO = 'REMOVE_TODO';

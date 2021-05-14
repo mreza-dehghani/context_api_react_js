@@ -1,0 +1,15 @@
+.home {
+    width: 800px;
+    margin: auto;
+    background-color: aquamarine;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .field-wrapper {
+    padding: 10px;
+}
