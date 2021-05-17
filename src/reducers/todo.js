@@ -1,11 +1,7 @@
 import * as actionTypes from '../constants/actionTypes';
+import todoInitialState from '../initialStates';
 
-const initialState = {
-	todoTitle: '',
-	todoDescription: '',
-};
-
-const Todo = (state = initialState, { type, payload }) => {
+export default (state = todoInitialState, { type, payload }) => {
 	switch (type) {
 		case actionTypes.ADD_TODO_TITLE:
 			return {
@@ -27,9 +23,4 @@ const Todo = (state = initialState, { type, payload }) => {
 		default:
 			return state;
 	}
-};
-
-export default {
-	reducer: Todo,
-	initialState: initialState,
 };

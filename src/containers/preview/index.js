@@ -4,7 +4,7 @@ import './index.css';
 import { TodoAction } from '../../actions';
 
 export default () => {
-	const [state, dispatch] = React.useContext(TodoContext);
+	const { state, dispatch } = React.useContext(TodoContext);
 
 	React.useEffect(() => {
 		return () => {

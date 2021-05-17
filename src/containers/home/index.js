@@ -8,7 +8,7 @@ import { TodoContext } from '../../context';
 
 export default () => {
 	const history = useHistory();
-	const [state, dispatch] = React.useContext(TodoContext);
+	const { dispatch } = React.useContext(TodoContext);
 
 	const addTodoTitle = value => {
 		dispatch(TodoAction.addTodoTitle(value));
